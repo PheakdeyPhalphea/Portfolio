@@ -38,7 +38,7 @@ My portfolio website, fully responsive for seamless adaptation to all screens, a
 
 ## Visit the web page
 
-- https://hernan-hawryluk.vercel.app/
+- 
 
 ## Where to find me?
 
