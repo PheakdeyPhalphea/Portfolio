@@ -27,7 +27,7 @@ export default function Intro() {
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1.2 }}
+            animate={{ opacity: 1, scale: 1}}
             transition={{ type: "tween", duration: 0.8 }}
           >
             <Image
