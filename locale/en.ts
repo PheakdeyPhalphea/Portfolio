@@ -24,6 +24,8 @@ import {
 
 import Ecommerce from "@/public/projects/html_project.png";
 import iFinder from "@/public/projects/ifinder_homepage.png";
+import Inspectra from "@/public/projects/homepage.png";
+import Sala from "@/public/projects/sala.png";
 import { LuGraduationCap } from "react-icons/lu";
 
 const en = {
@@ -103,6 +105,16 @@ const en = {
     title: "My Projects",
     data: [
       {
+        title: "Sala",
+        description:
+          "is a digital library designed to change the way teachers and students learn and communicate online.។",
+        tags: ["HTML", "CSS", "Tailwind", "JavaScript, jQuery, Axios "],
+        imageUrl: Sala,
+        repositoryUrl: "https://github.com/hernanhawryluk/tasks-nodejs-backend",
+        demoType: "Deploy",
+        demoUrl: "https://sala-final.vercel.app/index.html",
+      },
+      {
         title: "E-Commerce",
         description: "Mini-Project Static Web E-Commerce Front-End",
         tags: ["HTML", "CSS", "Tailwind", "JavaScript"],
@@ -115,29 +127,30 @@ const en = {
         title: "iFinder",
         description:
           "IFinder is a new search engine designed to provide fast and accurate search results and strong support for the Khmer language, making it our top priority",
-        tags: ["Next.Js", "CSS", "Tailwind", "TypeScript", "Spring"],
+        tags: ["Next.Js", "CSS", "Tailwind", "TypeScript", "Spring", "Docker "],
         imageUrl: iFinder,
         repositoryUrl: "https://github.com/hernanhawryluk/tasks-nodejs-backend",
         demoType: "Deploy",
         demoUrl: "https://tasks-react-frontend.vercel.app",
       },
       {
-        title: "HTML, CSS, Tailwind, JavaScript",
-        description: "Mini-Project Static Web E-Commerce Front-End",
-        tags: ["HTML", "CSS", "Tailwind", "JavaScript"],
-        imageUrl: Ecommerce,
-        repositoryUrl: "https://github.com/hernanhawryluk/tasks-nodejs-backend",
+        title: "Inspectra",
+        description:
+          "a An open-source white-box testing platform to streamline secure development through comprehensive source code analysis and vulnerability identification ",
+        tags: [
+          "Next.Js",
+          "CSS",
+          "Tailwind",
+          "TypeScript",
+          "Spring",
+          "SonarQube",
+          "Docker ",
+        ],
+        imageUrl: Inspectra,
+        repositoryUrl:
+          "https://github.com/PheakdeyPhalphea/inspectra_private.git",
         demoType: "Deploy",
-        demoUrl: "https://tasks-react-frontend.vercel.app",
-      },
-      {
-        title: "HTML, CSS, Tailwind, JavaScript",
-        description: "Mini-Project Static Web E-Commerce Front-End",
-        tags: ["HTML", "CSS", "Tailwind", "JavaScript"],
-        imageUrl: Ecommerce,
-        repositoryUrl: "https://github.com/hernanhawryluk/tasks-nodejs-backend",
-        demoType: "Deploy",
-        demoUrl: "https://tasks-react-frontend.vercel.app",
+        demoUrl: "https://inspectra.istad.co/",
       },
     ],
   },
@@ -277,13 +290,6 @@ const en = {
     title: "Contact Me",
     message:
       "Don't hesitate to get in touch! I'm excited about new job opportunities. You can do so through this form, by sending me a direct email, or by connecting with me on LinkedIn or GitHub. Looking forward to connecting!",
-    placeholderEmail: "Your email",
-    placeholderMessage: "Your message",
-    buttonSubmit: "Submit",
-    buttonCopy: "Copy Email Address",
-    toastSent: "Email sent successfully!",
-    toastCaptcha: "Verify captcha before sending.",
-    toastCopied: "Email address copied to clipboard!",
   },
   footer: {
     text: "All rights reserved.",

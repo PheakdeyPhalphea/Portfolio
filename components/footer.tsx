@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="mb-6 px-4 text-center text-gray-500">
       <small className="mb-1 block text-xs">
-        &copy; 2023 Hernan Hawryluk. {t("footer.text")}
+        &copy; 2025 PhalPhea Pheakdey. {t("footer.text")}
       </small>
       <p className="text-xs ">
         <span className="font-semibold">{t("footer.subtitle")}</span>{" "}

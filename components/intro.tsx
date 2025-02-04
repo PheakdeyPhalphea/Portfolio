@@ -27,17 +27,17 @@ export default function Intro() {
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1.2 }}
             transition={{ type: "tween", duration: 0.8 }}
           >
             <Image
               src={portrait}
               alt="PhalPhea Pheakdey portrait"
-              width={200}
-              height={200}
+              width={300}
+              height={350}
               quality={100}
               priority={true}
-              className="h-[300px] w-[300px] xl:h-24 xl:w-24 rounded-full border-[2px] border-white shadow-x1"
+              className="h-[350px] w-[300px] xl:h-24 xl:w-24 rounded-full border-[2px] border-white shadow-x1"
             />
           </motion.div>
         </div>
@@ -76,33 +76,15 @@ export default function Intro() {
         </Link>
 
         <a
-          href={language === "es" ? "/es/CV.pdf" : "/en/CV.pdf"}
-          download
+          href={"./PhalPheaPheakdey_CurriculumVitae.pdf"}
+          download="PhalPheaPheakdey_CurriculumVitae.pdf"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:z-10 transition active:scale-105 cursor-pointer borderBlack dark:bg-white/10 backdrop-blur-[0.5rem]"
         >
           {t("intro.downloadCV")}{" "}
           <HiDownload className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
 
-        <div className="flex items-center justify-center gap-2">
-          <a
-            href="https://www.linkedin.com/in/phalphea-pheakdey/"
-            target="_blank"
-            aria-label="LinkedIn"
-            className="bg-white p-4 text-gray-700 flex items-center rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition active:scale-105 cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90 backdrop-blur-[0.5rem]"
-          >
-            <BsLinkedin />
-          </a>
-
-          <a
-            href="https://github.com/PheakdeyPhalphea"
-            target="_blank"
-            aria-label="GitHub"
-            className="bg-white p-4 text-gray-700 flex items-center rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition active:scale-105 cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90 backdrop-blur-[0.5rem]"
-          >
-            <BsGithub />
-          </a>
-        </div>
+      
       </motion.div>
     </section>
   );
